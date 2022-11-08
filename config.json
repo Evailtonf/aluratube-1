@@ -1,0 +1,147 @@
+{
+    "name": "Lucas Gabriel Moya (LukinhaGabriel)",
+    "job": "Web Developer Junior",
+    "github": "LukinhaGabriel",
+    "banner": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "playlists": {
+        "vlogs": [
+            {
+                "title": "Experimentando O Que Os Gringos Acham Que A Gente Come!-Ep 1622",
+                "url": "https://www.youtube.com/watch?v=vAtCg_2TtsU&ab_channel=Cad%C3%AAachave%3F",
+                "thumb": "https://i.ytimg.com/vi/vAtCg_2TtsU/hqdefault.jpg"
+            },
+            {
+                "title": "🌎 Reencontrando velhos amigos do INTERCÂMBIO",
+                "url": "https://www.youtube.com/watch?v=buqKK6a_gDI&ab_channel=Midori",
+                "thumb": "https://i.ytimg.com/vi/buqKK6a_gDI/hq720.jpg"
+            },
+            {
+                "title": "Meu Primeiro Grande Teste Dentro Do Simulador",
+                "url": "https://www.youtube.com/watch?v=C93kQAOo_5I&ab_channel=Labz",
+                "thumb": "https://i.ytimg.com/vi/C93kQAOo_5I/hqdefault.jpg"
+            },
+            {
+                "title": "A rotina perfeita para pessoas ansiosas 🥰",
+                "url": "https://www.youtube.com/watch?v=p5OhAmNkVYc&ab_channel=BrunaMartiolli",
+                "thumb": "https://i.ytimg.com/vi/p5OhAmNkVYc/hqdefault.jpg"
+            },
+            {
+                "title": "VISITEI O SUPER LABORATÓRIO DE REPARO DE PLACA DE VÍDEO",
+                "url": "https://www.youtube.com/watch?v=bRINLkgU7k0&ab_channel=MWInform%C3%A1tica",
+                "thumb": "https://i.ytimg.com/vi/bRINLkgU7k0/hqdefault.jpg"
+            },
+            {
+                "title": "A rotina perfeita para pessoas ansiosas 🥰",
+                "url": "https://www.youtube.com/watch?v=4nc2-lAUSl8&ab_channel=DesbravaTrip",
+                "thumb": "https://i.ytimg.com/vi/4nc2-lAUSl8/hqdefault.jpg"
+            },
+            {
+                "title": "Aprenda LEITURA DINÂMICA em 10 minutos",
+                "url": "https://www.youtube.com/watch?v=4M-0255Pe4U&ab_channel=SusaneRibeiro",
+                "thumb": "https://i.ytimg.com/vi/4M-0255Pe4U/hqdefault.jpg"
+            },
+            {
+                "title": "A rotina perfeita para pessoas ansiosas 🥰",
+                "url": "https://www.youtube.com/watch?v=CeVtFFyC_Qk&t=17s&ab_channel=VibedeDois",
+                "thumb": "https://i.ytimg.com/vi/CeVtFFyC_Qk/hqdefault.jpg"
+            },
+            {
+                "title": "Console vlog (Passe um dia comigo trabalhando home office durante minha viagem!)",
+                "url": "https://www.youtube.com/watch?v=3Ve9ziwWV4s&ab_channel=RafaellaBallerini",
+                "thumb": "https://i.ytimg.com/vi/3Ve9ziwWV4s/hqdefault.jpg"
+            },
+            {
+                "title": "ELA MUDA TUDO! - RTX 4090",
+                "url": "https://www.youtube.com/watch?v=zPM1g5Jrwfs&ab_channel=CoisadeNerd",
+                "thumb": "https://i.ytimg.com/vi/zPM1g5Jrwfs/hqdefault.jpg"
+            }
+           
+        ],
+        "front End": [
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            }
+        ]
+    },
+    "favoritos":{
+        "AluraTubes Favoritos":[
+            {
+                "perfilgithub": "peas"
+            },
+            {
+                "perfilgithub": "omariosouto"
+            },
+            {
+                "perfilgithub": "vweberfroes"
+            },
+            {
+                "perfilgithub": "gabrielfroes"
+            },
+            {
+                "perfilgithub": "rafaballerini"
+            },
+            {
+                "perfilgithub": "robsonvleite"
+            },
+            {
+                "perfilgithub": "diego3g"
+            },
+            {
+                "perfilgithub": "filipedeschamps"
+            },
+            {
+                "perfilgithub": "matheusbattisti"
+            },
+            {
+                "perfilgithub": "lucasmontano"
+            }
+        ]
+    }
+}
