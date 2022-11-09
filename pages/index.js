@@ -1,7 +1,8 @@
+import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import Menu  from "../src/components/Menu";
+import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 
 
@@ -10,13 +11,16 @@ const HomePage = () => {
     //     //backgroundColor: "red" 
     // };
     //console.log(config.playlists);
+    const [valorDoFiltro, setvalorDoFiltro] = React.useState("");
+    //const valorDoFiltro = "perfeita";
     return (
         <>
             <CSSReset />
             <div>
-                <Menu />
-                <Header banner={config.banner}/>
-                <Timeline playlists={config.playlists} favoritos={config.favoritos} />
+                {/* Prop Drilling */}
+                <Menu valorDoFiltro={valorDoFiltro} setvalorDoFiltro={setvalorDoFiltro} />
+                <Header banner={config.banner} />
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists} favoritos={config.favoritos} />
             </div>
         </>
     );
@@ -32,12 +36,12 @@ export default HomePage;
 // };
 
 const StyledHeader = styled.div`
-    .banner-alura-tube{
+    /* .banner-alura-tube{
         width: 100%;
         height: 230px;
         object-fit:cover;
         object-position: center;
-    }
+    } */
     .foto-perfil{
         width: 80px;
         height: 80px;
@@ -52,10 +56,28 @@ const StyledHeader = styled.div`
     }
 `;
 
+// const StyledBannerAluraTube = styled.img`
+//     width: 100%;
+//     height: 230px;
+//     object-fit:cover;
+//     object-position: center;
+// `;
+
+const StyledBannerAluraTube = styled.div`
+    height: 230px;
+    background-color: purple;
+    background-image: url(${ ( { bg } ) => bg });
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+`;
+
 const Header = (props) => {
     return (
         <StyledHeader>
-            <img className="banner-alura-tube" src={props.banner} alt="Banner AluraTube"/>
+            {/* <img className="banner-alura-tube" src={props.banner} alt="Banner AluraTube" /> */}
+            {/* <StyledBannerAluraTube src={props.banner}/> */}
+            <StyledBannerAluraTube bg={config.banner} />
             <section className="user-info">
                 <img className="foto-perfil" src={`https://github.com/${config.github}.png`} alt="fotinha do perfil" />
                 <div>
@@ -67,7 +89,7 @@ const Header = (props) => {
     );
 };
 
-const Timeline = (props) => {
+const Timeline = ({ searchValue, ...props }) => {
     const playlistName = Object.keys(props.playlists);
     const favoritosName = Object.keys(props.favoritos);
     //Statment
@@ -77,12 +99,19 @@ const Timeline = (props) => {
             {playlistName.map((playlistName) => {
                 const videos = props.playlists[playlistName];
                 return (
-                    <section>
+                    <section key={playlistName}>
                         <h2>{playlistName}</h2>
                         <div className="video-card" >
-                            {videos.map((video) => {
+                            {videos
+                            .filter((video) => {
+                                //logica Se o nome do vídeo contêm algo com esse trecho
+                                const titleNormalized = video.title.toLowerCase();
+                                const searchValueNormalized = searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized)
+                            })
+                            .map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
                                             {video.title}
@@ -96,14 +125,14 @@ const Timeline = (props) => {
             })}
             {favoritosName.map((favoritosName) => {
                 const favoriteInfluences = props.favoritos[favoritosName]
-                return(
-                    <section>
+                return (
+                    <section key={favoritosName}>
                         <h2>{favoritosName}</h2>
                         <div className="favorite-card">
                             {favoriteInfluences.map((favoriteInfluences) => {
-                                return(
-                                    <a  href={`https://github.com/${favoriteInfluences.perfilgithub}`}>
-                                        <img className="photo-alurafavoritos" src={`https://github.com/${favoriteInfluences.perfilgithub}.png`}/>
+                                return (
+                                    <a key={favoriteInfluences.perfilgithub} href={`https://github.com/${favoriteInfluences.perfilgithub}`}>
+                                        <img className="photo-alurafavoritos" src={`https://github.com/${favoriteInfluences.perfilgithub}.png`} />
                                         <span>{`@${favoriteInfluences.perfilgithub}`}</span>
                                     </a>
                                 )
